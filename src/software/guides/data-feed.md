@@ -3,7 +3,7 @@ layout: page
 permalink: /software/guides/data-feed/
 title: Data Feed
 ---
-The the data feed is the primary method used to synchronize data from the telematics system to another system using the API. The GetFeed method can be polled at intervals to get new and updated data from the system. The feed API works with a token that is passed on every request and sent back with the payload on every response. This allows Geotab to track "up to which point in time" we have already sent the receiver data. It also allows the receiver to stop and seamlessly resume the data feed.
+The THE data feed is the primary method used to synchronize data from the telematics system to another system using the API. The GetFeed method can be polled at intervals to get new and updated data from the system. The feed API works with a token that is passed on every request and sent back with the payload on every response. This allows Geotab to track "up to which point in time" we have already sent the receiver data. It also allows the receiver to stop and seamlessly resume the data feed.
 
 ## Lightweight Incremental Poll
 
